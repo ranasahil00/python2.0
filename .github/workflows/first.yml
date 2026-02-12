@@ -1,10 +1,10 @@
 name: First workflow
 on:
- push:
-  branches: ["main"]
+  push:
+    branches: ["main"]
 jobs:
  hello:
-  runs-on: ubuntu-latest
+   runs-on: ubuntu-latest
  steps:
-   - name: Print message
-    run: echo "hello rana" 
+    - name: Print message
+     run: echo "hello rana" 
